@@ -1,0 +1,22 @@
+First Prompt:
+
+Create a skeleton for a Playwright Python scraper project with these files:
+
+1. scraper.py with:
+   - Imports for playwright and json
+   - A main() function that launches chromium (headless=False), opens a new page, and closes the browser when done
+   - Two empty stub functions: get_entertainment_news(page) and get_cartoon(page)
+   - Each stub should just return an empty list/dict with a # TODO comment
+   - At the bottom, call main() with if __name__ == "__main__"
+
+2. output.json with empty structure:
+   {"entertainment_news": [], "cartoon_of_the_day": {}}
+
+3. prompts.txt with one line:
+   "Initial skeleton setup"
+
+Keep the code minimal. No scraping logic yet. Just valid boilerplate I can run without errors.
+
+Second Prompt:
+@/home/firoj-raut/.cursor/projects/home-firoj-raut-Project-ekantipur-scraper/terminals/1.txt:177-180 
+this is the error comming from get_ cartoon function@scraper.py:48-94 .  its showing error on todays_cartoon which is not mention in the code ( i think its not reloading  newly written code)
